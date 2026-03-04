@@ -1,8 +1,13 @@
+---
+name: cc:pr-review
+description: Perform a deep senior-level code review for a GitHub Pull Request using MCP
+---
+
 ## 🔍 Pull Request Review (Senior Team Lead Perspective)
 
 ### 🎯 Objective
 Use GitHub MCP tools to fetch and review the following Pull Request:
-https://github.com/MazaadyPortal/doworkss_backend/pull/345
+$ARGUMENTS
 
 Act as a **Senior Software Engineer / Team Lead** reviewing code submitted by a mid-level developer in a **production-grade Laravel system**.
 
@@ -12,14 +17,14 @@ Act as a **Senior Software Engineer / Team Lead** reviewing code submitted by a 
 
 Perform a deep and critical review covering:
 
-- Code Quality & Readability
-- Architecture & Design Principles (SOLID, SRP, DRY)
-- Performance & Scalability
-- Security Concerns
-- Laravel Best Practices
-- Potential Bugs & Edge Cases
-- Naming Conventions & Structure
-- Responsibility Boundaries
+- Code Quality & Readability  
+- Architecture & Design Principles (SOLID, SRP, DRY)  
+- Performance & Scalability  
+- Security Concerns  
+- Laravel Best Practices  
+- Potential Bugs & Edge Cases  
+- Naming Conventions & Structure  
+- Responsibility Boundaries  
 
 ---
 
@@ -30,7 +35,7 @@ For each issue:
 1. ❌ What is wrong  
 2. ⚠️ Why it is a problem  
 3. ✅ Suggested fix / refactor  
-4. 💡 Code example (if applicable)
+4. 💡 Code example (if applicable)  
 
 ---
 
@@ -46,8 +51,8 @@ Each comment MUST be labeled as:
 
 ### 👍 Positive Feedback
 
-- Highlight well-written code, clean structure, and good practices.
-- Acknowledge solid decisions where applicable.
+- Highlight well-written code, clean structure, and good practices.  
+- Acknowledge solid decisions where applicable.  
 
 ---
 
@@ -55,8 +60,8 @@ Each comment MUST be labeled as:
 
 At the end, clearly state:
 
-- ✅ **Ready to Merge** or ❌ **Not Ready**
-- Provide a concise justification.
+- ✅ **Ready to Merge** or ❌ **Not Ready**  
+- Provide a concise justification.  
 
 ---
 
@@ -95,17 +100,23 @@ Structure the response EXACTLY like this:
 
 ### ✨ Tone & Style
 
-- Be direct, professional, and realistic
-- Avoid over-politeness
-- Focus on maintainability, scalability, and production impact
-- Keep feedback actionable and specific
+- Be direct, professional, and realistic  
+- Avoid over-politeness  
+- Focus on maintainability, scalability, and production impact  
+- Keep feedback actionable and specific  
 
 ---
 
 ### 📦 Deliverable (IMPORTANT)
 
-- Return ONLY the final Markdown content
-- The result must be a **ready-to-save `.md` file (e.g., `pr-review.md`)**
-- Do NOT include explanations outside the Markdown
-- Do NOT wrap the entire response in code blocks
-- Ensure clean formatting and consistent structure
+- Return ONLY the final Markdown content  
+- The result must be a **ready-to-save `.md` file (e.g., `pr-review.md`)**  
+- Do NOT include explanations outside the Markdown  
+- Do NOT wrap the entire response in code blocks  
+- Ensure clean formatting and consistent structure  
+
+---
+
+### 💡 Optional Enhancement
+
+If the PR is too large, focus on the most critical files and changes.
