@@ -90,3 +90,12 @@ Ask for confirmation before deleting anything.
 
 Do not delete code automatically.
 Only prepare the audit report first.
+
+OUTPUT RULE (VERY IMPORTANT):
+- You MUST generate the final result as a Markdown file.
+- The file must be saved under:
+/docs/<file-name>.md
+- Do not output plain text only.
+- Do not summarize outside the file.
+- The response must represent the final file content.
+- Include a clear title and structured markdown inside the file.
